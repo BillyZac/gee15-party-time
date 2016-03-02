@@ -1,0 +1,9 @@
+{
+  "firebase": "gee15-party-time",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
