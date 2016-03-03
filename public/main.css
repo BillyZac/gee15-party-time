@@ -310,12 +310,12 @@ body {
     border-top-left-radius: 25px;
   }
   50% {
-    border-top-right-radius: 50px;
+    border-top-right-radius: 40px;
     border-top-left-radius:  25px;
   }
   55% {
     border-top-right-radius: 25px;
-    border-top-left-radius: 50px;
+    border-top-left-radius: 40px;
   }
   65% {
     border-top-right-radius: 25px;
