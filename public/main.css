@@ -62,7 +62,7 @@ body,
   border-bottom-right-radius: 15px;
   border-top-left-radius: 0%;
   border-top-right-radius: 0%;
-  animation: call-mouth 4s infinite;
+  animation: call-mouth 2.64s infinite;
 }
 
 .mouth:hover {
@@ -354,36 +354,166 @@ body {
     width: 40px;
     height: 20px;
   }
-  48% {
+  /*g*/
+  1% {
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
     width: 40px;
     height: 20px;
   }
-  50% {
+  4% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  /*fif*/
+  7% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    heigth: 20px;
+  }
+  11% {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     width: 20px;
-    heigth: 20px;
+    height: 20px;
   }
-  52% {
+  /*teen*/
+  14% {
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
     width: 40px;
     height: 20px;
   }
-  55% {
+  20% {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     width: 20px;
-    heigth: 20px;
+    height: 20px;
   }
-  58% {
+
+  /*g*/
+  21% {
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
     width: 40px;
     height: 20px;
   }
+  24% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  /*fif*/
+  27% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    heigth: 20px;
+  }
+  30% {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  /*teen*/
+  33% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  40% {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+
+  /*par*/
+  41% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  43% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  /*ty*/
+  45% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    heigth: 20px;
+  }
+  47% {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  /*time*/
+  49% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  51% {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+
+  /*g*/
+  56% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  60% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  /*fif*/
+  64% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    heigth: 20px;
+  }
+  68% {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  /*teen*/
+  72% {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    width: 40px;
+    height: 20px;
+  }
+  74% {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+
   100% {
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
