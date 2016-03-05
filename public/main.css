@@ -16,6 +16,8 @@ body,
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  margin-left: 120px;
+  animation: attitude 3s infinite;
 }
 
 .face {
@@ -293,12 +295,13 @@ body {
 
 .kyle-container {
   width: 680px;
-  height: 680px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 
 @keyframes shoulders {
   0% {
@@ -389,5 +392,109 @@ body {
     border-top-right-radius: 0%;
     width: 40px;
     height: 20px;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.waving-arm {
+	width: 50px;
+	height: 55px;
+
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 50px;
+  border: 25px solid hsla(360, 50%, 50%, 1);
+  border-right: transparent;
+
+  border-bottom: 25px solid hsla(360, 50%, 50%, 1);
+  border-top: transparent;
+
+}
+.fingers {
+position: relative;
+height: 33px;
+width: 25px;
+animation: hang-loose 1.2s infinite;
+}
+
+.triangle-bottomleft {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 33px solid hsla(360, 70%, 90%, 1);
+	border-left: 0px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.middle-finger {
+  width: 0;
+  height: 0;
+  border-bottom: 33px solid hsla(360, 70%, 90%, 1);
+  border-left: 6px solid transparent;
+  border-right: 9px solid transparent;
+  margin-left: 10px;
+  position: absolute;
+
+}
+
+@keyframes hang-loose {
+  0% {
+    transform: rotateY(0deg);
+  }
+  49% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(-180deg);
+  }
+  99% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.torso {
+  display: flex;
+}
+
+.left-arm,
+.left-hand {
+  opacity: 0;
+}
+
+.kyle-container *:hover {
+  transition: 10s all;
+}
+/*.kyle-container *:hover {
+  width: 100%;
+}*/
+
+.kyle-body > * {
+  align-self: flex-end;
+}
+
+@keyframes attitude {
+  0% {
+    margin-left: 120px;
+  }
+  20% {
+    margin-left: 120px;
+  }
+  25% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 120px;
+  }
+  100% {
+    margin-left: 120px;
   }
 }
