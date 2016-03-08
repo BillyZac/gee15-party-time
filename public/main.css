@@ -158,8 +158,8 @@ body,
   align-items: center;
   border-radius: 50%;
   position: fixed;
-  top: 6%;
-  left: 18%;
+  top: 1%;
+  left: 22%;
   z-index: -99;
 }
 
