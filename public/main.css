@@ -150,25 +150,24 @@ body,
 }
 
 .inner-circle {
-  background: hsla(43, 81%, 74%, 1);
-  width: 1650px;
-  height: 650px;
+  background: hsla(165, 72%, 51%, 0.5);
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
 
 
 .outer-circle {
-  background: hsla(165, 72%, 51%, 0.5);
-  width: 2800px;
-  height: 800px;
+  background: hsla(43, 81%, 74%, 1);
+  width: 600px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 300px;
-  margin-top: 60px;
+  border-radius: 50%;
   position: fixed;
-  top: 50%;
-  left: -10%;
+  top: 6%;
+  left: 18%;
   z-index: -99;
 }
 
@@ -294,12 +293,17 @@ body {
 }
 
 .kyle-container {
+  /*background: aqua;*/
+  padding: 0;
   width: 680px;
   height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: -5%;
+  left: 30%;
 }
 
 
@@ -526,11 +530,11 @@ body {
 }
 
 body {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 90vh;
+  align-items: center;*/
+  /*height: 90vh;*/
 }
 
 .waving-arm {
